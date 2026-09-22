@@ -1,0 +1,111 @@
+CRITICAL - 2026-09-10 13:55:51 --> ErrorException: Undefined variable $p
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 104.
+ 1 APPPATH\Views\home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'C:\\xampp\\htdocs\\tokoshinta\\app\\Views\\home.php', 104)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\tokoshinta\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:50:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout/index.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('checkout/index', [], true)
+ 3 APPPATH\Controllers\CheckoutController.php(35): view('checkout/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CheckoutController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckoutController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 14:51:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout/index.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('checkout/index', [], true)
+ 3 APPPATH\Controllers\CheckoutController.php(35): view('checkout/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CheckoutController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckoutController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-10 14:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-10 14:55:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout/index.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('checkout/index', [], true)
+ 3 APPPATH\Controllers\CheckoutController.php(35): view('checkout/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CheckoutController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckoutController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-10 14:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-10 14:57:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout/index.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('checkout/index.php', [], true)
+ 3 APPPATH\Controllers\CheckoutController.php(35): view('checkout/index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CheckoutController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckoutController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-10 14:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-10 14:57:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout/index.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('checkout/index.php', [], true)
+ 3 APPPATH\Controllers\CheckoutController.php(35): view('checkout/index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CheckoutController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckoutController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-10 14:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-10 15:00:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pesanan/detail.php"
+[Method: GET, Route: pesanan/detail/MIE-20260910-4FAB52]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pesanan/detail.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pesanan/detail', [], true)
+ 3 APPPATH\Controllers\PesananController.php(41): view('pesanan/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\PesananController->detail('MIE-20260910-4FAB52')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-10 15:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-10 15:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
