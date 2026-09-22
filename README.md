@@ -54,11 +54,8 @@ Dibuat dengan sepenuh hati (dan beberapa cangkir kopi/boba di sela-sela ngoding)
    ```
 
 4. Atur koneksi database di `App/Config/Database.php`
-   ```env
-   CI_ENVIRONMENT = development
-
-   app.baseURL = 'http://localhost:8080/'
-
+   ```Database.php
+   
    database.default.hostname = localhost
    database.default.database = db_mielleshop
    database.default.username = root
