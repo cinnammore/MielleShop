@@ -53,14 +53,14 @@ Dibuat dengan sepenuh hati (dan beberapa cangkir kopi/boba di sela-sela ngoding)
    cp env .env
    ```
 
-4. Atur koneksi database di `.env`
+4. Atur koneksi database di `App/Config/Database.php`
    ```env
    CI_ENVIRONMENT = development
 
    app.baseURL = 'http://localhost:8080/'
 
    database.default.hostname = localhost
-   database.default.database = mielleshop
+   database.default.database = db_mielleshop
    database.default.username = root
    database.default.password =
    database.default.DBDriver = MySQLi
