@@ -65,6 +65,12 @@ Dibuat dengan sepenuh hati (dan beberapa cangkir kopi/boba di sela-sela ngoding)
 
 ---
 
+## 👤 Account
+N/A
+Silahkan buat sendiri
+
+---
+
 ## 📁 Struktur folder
 
 ```
