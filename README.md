@@ -48,37 +48,17 @@ Dibuat dengan sepenuh hati (dan beberapa cangkir kopi/boba di sela-sela ngoding)
    composer install
    ```
 
-3. Copy file env, terus ganti nama jadi `.env`
+3. Copy file env, terus ganti nama jadi `.env` (OPSIONAL)
    ```bash
-   cp env .env
+   rename env .env
    ```
 
-4. Atur koneksi database di `App/Config/Database.php`
-   ```Database.php
-   
-   database.default.hostname = localhost
-   database.default.database = db_mielleshop
-   database.default.username = root
-   database.default.password =
-   database.default.DBDriver = MySQLi
-   ```
-
-5. Bikin database baru namanya `mielleshop`, terus migrasi
-   ```bash
-   php spark migrate
-   ```
-
-6. Kalau mau ada data contoh, jalanin seeder
-   ```bash
-   php spark db:seed DatabaseSeeder
-   ```
-
-7. Nyalain server-nya
+4. Nyalain server-nya
    ```bash
    php spark serve
    ```
 
-8. Buka deh di browser 🌐
+5. Buka deh di browser 🌐
    ```
    http://localhost:8080
    ```
